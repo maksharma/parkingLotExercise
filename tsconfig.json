@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "outDir": "build",
+    "sourceMap": true,
+    "target": "es6",
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "noEmitHelpers": false,
+    "importHelpers": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

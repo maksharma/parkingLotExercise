@@ -1,0 +1,10 @@
+# IDE/System Stuff
+.DS_Store
+.idea
+.vscode
+
+# Node/Typescript Application
+node_modules
+
+#Test coverage files
+coverage

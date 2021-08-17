@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="38" failures="0" errors="0" time="2.505">
+  <testsuite name="ParkingLotManager" errors="0" failures="0" skipped="0" timestamp="2021-08-14T08:53:27" time="2.159" tests="5">
+    <testcase classname="ParkingLotManager processLineByLine processes a normal input parking file successfully" name="ParkingLotManager processLineByLine processes a normal input parking file successfully" time="0.019">
+    </testcase>
+    <testcase classname="ParkingLotManager processLineByLine processes an input parking file with blank lines successfully" name="ParkingLotManager processLineByLine processes an input parking file with blank lines successfully" time="0.003">
+    </testcase>
+    <testcase classname="ParkingLotManager processLineByLine throws error while processing a random file" name="ParkingLotManager processLineByLine throws error while processing a random file" time="0.003">
+    </testcase>
+    <testcase classname="ParkingLotManager validateAction validates that enter and are allowed actions" name="ParkingLotManager validateAction validates that enter and are allowed actions" time="0">
+    </testcase>
+    <testcase classname="ParkingLotManager validateAction throws error if invalid actions are invoked" name="ParkingLotManager validateAction throws error if invalid actions are invoked" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="entryHandler" errors="0" failures="0" skipped="0" timestamp="2021-08-14T08:53:29" time="0.063" tests="16">
+    <testcase classname="entryHandler handleEntry checks and parks a car" name="entryHandler handleEntry checks and parks a car" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler handleEntry checks and parks a motorcycle" name="entryHandler handleEntry checks and parks a motorcycle" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler handleEntry throws error for invalid vehicle type" name="entryHandler handleEntry throws error for invalid vehicle type" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler handleEntry fails parking if slots are full" name="entryHandler handleEntry fails parking if slots are full" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler checkAndPark checks and parks a car" name="entryHandler checkAndPark checks and parks a car" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler checkAndPark checks and parks a motorcycle" name="entryHandler checkAndPark checks and parks a motorcycle" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler checkAndPark throws error for invalid vehicle type" name="entryHandler checkAndPark throws error for invalid vehicle type" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler checkAndPark fails parking if slots are full" name="entryHandler checkAndPark fails parking if slots are full" time="0.004">
+    </testcase>
+    <testcase classname="entryHandler getMinAvailableSlot returns first slot for empty parking" name="entryHandler getMinAvailableSlot returns first slot for empty parking" time="0">
+    </testcase>
+    <testcase classname="entryHandler getMinAvailableSlot returns first empty element in non-empty parking" name="entryHandler getMinAvailableSlot returns first empty element in non-empty parking" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler getMinAvailableSlot returns -1 in non-empty array" name="entryHandler getMinAvailableSlot returns -1 in non-empty array" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler enter successfully parks a car" name="entryHandler enter successfully parks a car" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler enter successfully parks a motorcycle" name="entryHandler enter successfully parks a motorcycle" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler handleParkingSuccess prints success message for car parking" name="entryHandler handleParkingSuccess prints success message for car parking" time="0.005">
+    </testcase>
+    <testcase classname="entryHandler handleParkingSuccess prints success message for motorcycle parking" name="entryHandler handleParkingSuccess prints success message for motorcycle parking" time="0.001">
+    </testcase>
+    <testcase classname="entryHandler handleParkingFailure prints reject message for parking failure" name="entryHandler handleParkingFailure prints reject message for parking failure" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="exitHandler" errors="0" failures="0" skipped="0" timestamp="2021-08-14T08:53:29" time="0.051" tests="10">
+    <testcase classname="exitHandler handleExit deletes car from array and deducts parking fee" name="exitHandler handleExit deletes car from array and deducts parking fee" time="0.001">
+    </testcase>
+    <testcase classname="exitHandler handleExit deletes motorcycle from array and deducts parking fee" name="exitHandler handleExit deletes motorcycle from array and deducts parking fee" time="0">
+    </testcase>
+    <testcase classname="exitHandler checkAndExit deletes car from array and deducts parking fee" name="exitHandler checkAndExit deletes car from array and deducts parking fee" time="0.003">
+    </testcase>
+    <testcase classname="exitHandler checkAndExit deletes motorcycle from array and deducts parking fee" name="exitHandler checkAndExit deletes motorcycle from array and deducts parking fee" time="0.001">
+    </testcase>
+    <testcase classname="exitHandler calculateParkingFee return parking fee for an hour for car" name="exitHandler calculateParkingFee return parking fee for an hour for car" time="0">
+    </testcase>
+    <testcase classname="exitHandler calculateParkingFee return parking fee for an hour for motorcycle" name="exitHandler calculateParkingFee return parking fee for an hour for motorcycle" time="0.001">
+    </testcase>
+    <testcase classname="exitHandler handleExitSuccess prints exit message for car" name="exitHandler handleExitSuccess prints exit message for car" time="0.001">
+    </testcase>
+    <testcase classname="exitHandler handleExitSuccess prints exit message for motocycle" name="exitHandler handleExitSuccess prints exit message for motocycle" time="0">
+    </testcase>
+    <testcase classname="exitHandler getSlotIndex returns index of the vehicle in the array" name="exitHandler getSlotIndex returns index of the vehicle in the array" time="0">
+    </testcase>
+    <testcase classname="exitHandler getSlotIndex returns -1 if vehicle not found in the array" name="exitHandler getSlotIndex returns -1 if vehicle not found in the array" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="utils" errors="0" failures="0" skipped="0" timestamp="2021-08-14T08:53:29" time="0.039" tests="7">
+    <testcase classname="utils getFirstEmptyElementInArray returns first element in empty array" name="utils getFirstEmptyElementInArray returns first element in empty array" time="0.001">
+    </testcase>
+    <testcase classname="utils getFirstEmptyElementInArray returns first empty element in non-empty array" name="utils getFirstEmptyElementInArray returns first empty element in non-empty array" time="0.001">
+    </testcase>
+    <testcase classname="utils getFirstEmptyElementInArray returns -1 in non-empty array" name="utils getFirstEmptyElementInArray returns -1 in non-empty array" time="0">
+    </testcase>
+    <testcase classname="utils findInArray returns index of element in array" name="utils findInArray returns index of element in array" time="0">
+    </testcase>
+    <testcase classname="utils findInArray returns -1 if element not found in array" name="utils findInArray returns -1 if element not found in array" time="0">
+    </testcase>
+    <testcase classname="utils getParkingLotPrefix returns prefix for type car" name="utils getParkingLotPrefix returns prefix for type car" time="0">
+    </testcase>
+    <testcase classname="utils getParkingLotPrefix returns prefix for type motorcycle" name="utils getParkingLotPrefix returns prefix for type motorcycle" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
